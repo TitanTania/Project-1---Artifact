@@ -49,16 +49,26 @@ li {
 }
 
 #icons {
-
   font-size: 20px;
   font-family: arial;
-
   padding: 5%;
 }
 
 .icons {
-
+  width: 100%;
   font-size: 20px;
   font-family: arial;
-  padding: 5%;
+}
+
+.row {
+  margin: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.content {
+  padding: 10%;
 }
