@@ -23,4 +23,33 @@ li {
   margin-left: auto;
   margin-right: auto;
   width: 20%;
+  height: 20%;
+  z-index: -1;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#icons {
+
+  font-size: 20px;
+  font-family: arial;
+
+  padding: 5%;
+}
+
+.icons {
+
+  font-size: 20px;
+  font-family: arial;
+  padding: 5%;
 }
