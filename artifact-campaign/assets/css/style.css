@@ -2,7 +2,8 @@
   font-size: 70px;
   font-family: arial;
   text-align: center;
-  color:
+  color: ;
+  position: relative;
 }
 
 li {
@@ -19,5 +20,26 @@ li {
 }
 
 .logo {
-  align-content: center; 
+  align-content: center;
+}
+
+#headerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 20%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: hotpink;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
