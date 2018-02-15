@@ -50,31 +50,3 @@ body {
   position: relative;
   text-align: center;
 }
-/*
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-.icons {
-  width: 100%;
-  font-size: 20px;
-  font-family: arial;
-}
-
-.row {
-  margin: 8px;
-}
-
-.column {
-  float: left;
-  width: 25%;
-}
-
-.content {
-  padding: 10%;
-}
-*/
