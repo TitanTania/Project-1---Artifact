@@ -32,10 +32,6 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-.top-nav a:hover{
-  background: red;
-}
-
 .top-nav a img{
   max-height: 50px;
 }
