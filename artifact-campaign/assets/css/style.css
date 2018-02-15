@@ -48,3 +48,19 @@ body {
   position: relative;
   text-align: center;
 }
+
+footer {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footercontent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer img {
+  height: 30px;
+  padding-left: 10px;
+}
