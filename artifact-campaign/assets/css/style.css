@@ -66,4 +66,5 @@ footer img {
   height: 30px;
   padding-left: 10px;
   padding-top: 10px;
+  filter: grayscale(100%);
 }
