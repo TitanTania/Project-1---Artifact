@@ -106,3 +106,15 @@ footer img {
   position: relative;
   z-index: -1;
 }
+
+.contactusinfo {
+  display: flex;
+  text-align: center;
+}
+.contactus img {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
