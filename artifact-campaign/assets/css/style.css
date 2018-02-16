@@ -165,12 +165,11 @@ footer img {
     opacity: 1;
   }
 =======
-.contactusinfo {
-  text-align: center;
-  margin: auto;
-  max-width: 600px;
 
+.contactusinfo {
+  text-align:center;
 }
+
 .contactus img {
   width: 100%;
 }
