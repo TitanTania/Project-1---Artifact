@@ -203,7 +203,7 @@ footer img {
 #box3 {
   background: orange;
   opacity: 1;
-  backgroud: linear-gradient(to right, rgba(0,0,0,255), rgba(0,0,255,1));
+  background: linear-gradient(to right, rgba(0,0,0,255), rgba(0,0,255,1));
   height: 200px;
   width: 100%;
   max-width: 1000px;
