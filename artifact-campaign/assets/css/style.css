@@ -6,8 +6,10 @@
 }*/
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
 }
+
 .top-nav{
   justify-content: center;
   display: flex;
@@ -107,6 +109,7 @@ footer img {
   z-index: -1;
 }
 
+<<<<<<< HEAD
 .container {
   width: 50%;
   margin: 0 auto;
@@ -160,3 +163,20 @@ footer img {
     width: 100%;
     opacity: 1;
   }
+=======
+.contactusinfo {
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+
+}
+.contactus img {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+
+}
+>>>>>>> 9a11a423cbf95114197874b6d0648fa456bd8070
