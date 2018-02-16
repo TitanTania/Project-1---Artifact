@@ -106,3 +106,57 @@ footer img {
   position: relative;
   z-index: -1;
 }
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  border: 50px;
+  padding: 0px;
+  position: relative;
+}
+
+#box1 {
+  background: orange;
+  opacity: 0.5;
+  backgroud: linear-gradient(to right, rgba(0,0,0,255), rgba(0,0,255,1));
+  height: 200px;
+  width: 100%;
+  max-width: 1000px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: ;
+}
+
+.overlay {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: yellow;
+  border-radius: ;
+}
+
+#text {
+    color: black;
+    font-size: 20px;
+    font-family: 'Ruda', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+.container:hover .overlay {
+    width: 100%;
+    opacity: 1;
+  }
