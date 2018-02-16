@@ -102,4 +102,7 @@ footer img {
   margin: 0 auto;
   padding: 50px;
   border: 50px;
+  transform: rotate(-21deg);
+  position: relative;
+  z-index: -1;
 }
