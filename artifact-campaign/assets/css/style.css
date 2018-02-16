@@ -259,11 +259,11 @@ h2 {
 
 .mail {
   text-align: center;
-
 }
 
-.mail a {
+.mailtext a {
   color: #71c5c9;
+  text-align: center
 }
 
 .phone img {
