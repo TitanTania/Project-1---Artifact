@@ -1,16 +1,10 @@
-/*#title {
-  font-size: 70px;
-  font-family: arial;
-  text-align: center;
-  color:
-}*/
 
 body {
   font-family: 'PT Sans', sans-serif;
   font-size: 20px;
   margin: 0;
 }
-
+/* NAVIGATION */
 .top-nav{
   justify-content: center;
   display: flex;
@@ -40,29 +34,31 @@ body {
 }
 
 .top-nav img{
-padding-bottom:10px;
+  padding-bottom:10px;
 }
 
 .top-nav a{
-position: relative;
-display: flex;
-flex-direction: column;
-align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .top-nav li a:after{
-content: "";
-display: block;
-position: absolute;
-bottom: -4px;
-left: 50%;
-border-bottom: 1px solid #000;
-transform: translate(-50%, 0);
-transition: .2s;
-width: 0%;
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  border-bottom: 1px solid #000;
+  transform: translate(-50%, 0);
+  transition: .2s;
+  width: 0%;
 }
 .top-nav a:hover:after{
-width: 100%;
+  width: 100%;
 }
+/* NAVIGATION END*/
+
 
 .logo img {
   display: block;
@@ -139,7 +135,7 @@ footer img{
   bottom: 0;
   left: 0;
   right: 0;
-  border-radius: ;
+  border-radius: ;/* what is the purpose of this?*/
 }
 
 #overlay {
@@ -154,7 +150,7 @@ footer img{
   opacity: 0;
   transition: .5s ease;
   background-color: yellow;
-  border-radius: ;
+  border-radius: ;/* what is the purpose of this?*/
 }
 
 .text {
@@ -176,7 +172,7 @@ footer img{
   #box2 {
     background: orange;
     opacity: 1;
-    backgroud: linear-gradient(to right, rgba(0,0,0,255), rgba(0,0,255,1));
+    background: linear-gradient(to right, rgba(0,0,0,255), rgba(0,0,255,1));
     height: 200px;
     width: 100%;
     max-width: 1000px;
@@ -185,7 +181,7 @@ footer img{
     bottom: 0;
     left: 0;
     right: 0;
-    border-radius: ;
+    border-radius: ;/* what is the purpose of this?*/
   }
 
   #overlay2 {
@@ -200,7 +196,7 @@ footer img{
     opacity: 0;
     transition: .5s ease;
     background-color: lightblue;
-    border-radius: ;
+    border-radius: ;/* what is the purpose of this?*/
   }
 
   .container:hover #overlay2 {
@@ -220,7 +216,7 @@ footer img{
   bottom: 0;
   left: 0;
   right: 0;
-  border-radius: ;
+  border-radius: ;/* what is the purpose of this?*/
 }
 
 #overlay3 {
@@ -235,7 +231,7 @@ footer img{
   opacity: 0;
   transition: .5s ease;
   background-color: pink;
-  border-radius: ;
+  border-radius: ; /* what is the purpose of this?*/
 }
 
 .container:hover #overlay3 {
