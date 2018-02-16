@@ -94,3 +94,9 @@ footer img {
   padding-top: 10px;
   filter: grayscale(100%);
 }
+
+.rehabilitation {
+  width: 100%;
+  max-width: 100px;
+  height: 200px;
+}
