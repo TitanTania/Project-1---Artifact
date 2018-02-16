@@ -108,8 +108,10 @@ footer img {
 }
 
 .contactusinfo {
-  display: flex;
   text-align: center;
+  margin: auto;
+  max-width: 600px;
+
 }
 .contactus img {
   width: 100%;
