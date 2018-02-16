@@ -237,7 +237,9 @@ footer img {
 
 
 .contactusinfo {
-  text-align:center;
+  text-align: center;
+  margin: auto;
+  max-width: 700px;
 }
 
 .contactus img {
@@ -248,4 +250,27 @@ h2 {
   text-align: center;
   font-size: 45px;
 
+}
+
+.mail img {
+  height: 48px;
+  width: 54px;
+}
+
+.mail {
+  text-align: center;
+
+}
+
+.mail a {
+  color: #71c5c9;
+}
+
+.phone img {
+  height: 86px;
+  width: 49px;
+}
+
+.phone {
+  text-align: center;
 }
