@@ -96,7 +96,10 @@ footer img {
 }
 
 .rehabilitation {
-  width: 100%;
-  max-width: 100px;
-  height: 200px;
+  width: 64%;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 50px;
+  border: 50px;
 }
