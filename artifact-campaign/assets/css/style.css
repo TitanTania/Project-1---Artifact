@@ -102,9 +102,10 @@ footer img{
   height: 30px;
 }
 
-.rehabilitation {
+.pixels {
   width: 64%;
-  height: 300px;
+  height: 400px;
+  left: 380px;
   display: block;
   margin: 0 auto;
   padding: 50px;
@@ -115,12 +116,26 @@ footer img{
 }
 
 
+
+}
+
 .container {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
-  border: 50px;
+  border: 10px;
   padding: 0px;
+  position: absolute;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+.textblock {
   position: relative;
+  bottom: 200px;
+  left: 500px;
+
 }
 
 #box1 {
@@ -129,12 +144,12 @@ footer img{
   background: linear-gradient(to right, rgba(0,0,0,255), rgba(0,0,255,1));
   height: 200px;
   width: 100%;
-  max-width: 1000px;
   display: block;
-  top: 0;
+  /*top: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: 0;*/
+  right: 500px;
+  position: absolute;
   border-radius: ;/* what is the purpose of this?*/
 }
 
@@ -142,10 +157,10 @@ footer img{
   position: absolute;
   height: 200px;
   width: 400px;
-  top: 0;
+  /*top: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: 0;*/
+  right: 500px;
   overflow: hidden;
   opacity: 0;
   transition: .5s ease;
@@ -163,6 +178,19 @@ footer img{
     transform: translate(-50%, -50%);
     white-space: nowrap;
   }
+
+#img1 {
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  width: auto;
+  position: relative;
+
+}
+
+.rehabilitation {
+
+}
 
 .container:hover #overlay {
     width: 100%;
