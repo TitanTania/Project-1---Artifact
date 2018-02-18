@@ -171,7 +171,7 @@ footer img{
   overflow: hidden;
   opacity: 0;
   transition: .5s ease;
-  background-color: yellow;
+  background-color: #069999;
   border-radius: ;/* what is the purpose of this?*/
 }
 
@@ -225,7 +225,7 @@ footer img{
     overflow: hidden;
     opacity: 0;
     transition: .5s ease;
-    background-color: lightblue;
+    background-color: #71c5c9;
     border-radius: ;/* what is the purpose of this?*/
   }
 
@@ -260,7 +260,7 @@ footer img{
   overflow: hidden;
   opacity: 0;
   transition: .5s ease;
-  background-color: pink;
+  background-color: #f6a316;
   border-radius: ; /* what is the purpose of this?*/
 }
 
