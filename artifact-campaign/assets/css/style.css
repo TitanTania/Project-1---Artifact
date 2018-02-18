@@ -103,16 +103,23 @@ footer img{
 }
 
 .pixels {
-  width: 64%;
-  height: 400px;
-  left: 380px;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1000px;
+  height: auto;
+  padding-left: 50px;
+  transform: rotate(-21deg);
+  /*width: 64%;
+  height: 700px;
+  left: 500px;
   display: block;
   margin: 0 auto;
   padding: 50px;
   border: 50px;
   transform: rotate(-21deg);
   position: relative;
-  z-index: -1;
+  z-index: -1; might remove this*/
 }
 
 
@@ -185,11 +192,6 @@ footer img{
   margin: 0 auto;
   width: auto;
   position: relative;
-
-}
-
-.rehabilitation {
-
 }
 
 .container:hover #overlay {
@@ -198,17 +200,17 @@ footer img{
   }
 
   #box2 {
-    background: orange;
+    /*background: orange;*/
     opacity: 1;
-    background: linear-gradient(to right, rgba(0,0,0,255), rgba(0,0,255,1));
+    /*background: linear-gradient(to right, rgba(0,0,0,255), rgba(0,0,255,1));*/
     height: 200px;
     width: 100%;
-    max-width: 1000px;
     display: block;
-    top: 0;
+    /*top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 0;*/
+    right: 500px;
+    position: absolute;
     border-radius: ;/* what is the purpose of this?*/
   }
 
@@ -216,10 +218,10 @@ footer img{
     position: absolute;
     height: 200px;
     width: 400px;
-    top: 0;
+    /*top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 0;*/
+    right: 500px;
     overflow: hidden;
     opacity: 0;
     transition: .5s ease;
