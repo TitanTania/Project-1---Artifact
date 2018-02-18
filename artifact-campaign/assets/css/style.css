@@ -298,7 +298,11 @@ h2 {
 
 .mailtext a {
   color: #71c5c9;
-  text-align: center
+}
+
+.mailtext {
+  text-align: center;
+    padding: 0 0 25px 0;
 }
 
 .phone img {
@@ -308,4 +312,10 @@ h2 {
 
 .phone {
   text-align: center;
+}
+
+.phonenumber p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
