@@ -192,6 +192,7 @@ footer img{
   margin: 0 auto;
   width: auto;
   position: relative;
+  max-width: 100%;
 }
 
 .container:hover #overlay {
