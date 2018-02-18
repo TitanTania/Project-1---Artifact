@@ -327,3 +327,10 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.contact-section {
+  background: url("../images/mediumpixels.png");
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: -20px 98%;
+}
