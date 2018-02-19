@@ -349,7 +349,8 @@ h2 {
 }
 
 .testpicture2 img {
-  height: 62px;
+  height: 92px;
+  padding: 0 0 0 10px;
 }
 
 .piechart img {
