@@ -354,5 +354,11 @@ h2 {
 
 .piechart img {
   height: 137px;
-  
+
+}
+
+.work-section img {
+  height: auto;
+  width: 300px;
+  display: flex;
 }
