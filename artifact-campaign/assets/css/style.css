@@ -351,3 +351,9 @@ h2 {
 .testpicture2 img {
   height: 62px;
 }
+
+.work-section img {
+  display: flex;
+  height: auto;
+  width: 400px;
+}
