@@ -373,7 +373,20 @@ h2 {
 .work-text {
   display: flex;
   flex-direction: row;
-  margin-left: 85px;
+  justify-content: space-around;
+}
+
+.dfs, .ncm, .zen {
+  display: flex;
+  max-width: 300px;
+}
+
+.white-box {
+  padding-bottom: 15%;
+}
+
+.space-box {
+  padding-bottom: 5%;
 }
 
 .cover_rehab img {
