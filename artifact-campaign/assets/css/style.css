@@ -328,9 +328,10 @@ h2 {
   background-position: center;
 }
 
+
 .contact-section {
-  background: url("../images/mediumpixels.png");
+  background: url("../images/mediumpixels.png"), url("../images/mediumpixelsreflected.png");
   background-size: 35%;
   background-repeat: no-repeat;
-  background-position: -20px 98%;
+  background-position: -20px 98%, calc(100% + 20px) 98%;
 }
