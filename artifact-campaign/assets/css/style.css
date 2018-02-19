@@ -392,3 +392,8 @@ h2 {
 .cover_rehab img {
   width: 100%;
 }
+
+figcaption {
+  font-size: 60%;
+  font-style: oblique;
+}
