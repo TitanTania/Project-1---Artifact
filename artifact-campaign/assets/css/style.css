@@ -335,3 +335,19 @@ h2 {
   background-repeat: no-repeat;
   background-position: -20px 98%, calc(100% + 20px) 98%;
 }
+
+
+.test_with_vr {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+
+}
+
+.testpicture img {
+  height: 92px;
+}
+
+.testpicture2 img {
+  height: 62px;
+}
