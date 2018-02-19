@@ -360,10 +360,11 @@ h2 {
 .work-section img {
   height: 200px;
   width: 300px;
-  padding-left: 95px;
+
 }
 
 .work-section {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
