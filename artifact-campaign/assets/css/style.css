@@ -375,3 +375,7 @@ h2 {
   flex-direction: row;
   margin-left: 85px;
 }
+
+.cover_rehab img {
+  width: 100%;
+}
