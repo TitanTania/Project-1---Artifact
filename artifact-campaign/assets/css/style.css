@@ -320,7 +320,7 @@ h2 {
   padding: 0;
 }
 
-.rehabilitation {
+.pixel-image {
   padding-bottom: 28%; /*padding fact: scales with width with %*/
   background: url("../images/newlongpixel.svg");
   background-size: 100%;
