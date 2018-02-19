@@ -94,6 +94,10 @@ footer div {
   height: 30px;
   margin-left: 10px;
   filter: grayscale(100%);
+  transition: filter 0.8s;
+}
+footer div:hover {
+  filter: none;
 }
 footer div:first-child{
   margin-left: 0;
