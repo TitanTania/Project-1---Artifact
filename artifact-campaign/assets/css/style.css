@@ -380,3 +380,11 @@ h2 {
   display: flex;
   max-width: 300px;
 }
+
+.white-box {
+  padding-bottom: 15%;
+}
+
+.space-box {
+  padding-bottom: 5%;
+}
