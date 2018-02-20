@@ -106,9 +106,6 @@ footer img{
 }
 
 
-
-}
-
 .container {
   width: 100%;
   margin: 0 auto;
@@ -281,4 +278,8 @@ h2 {
 figcaption {
   font-size: 60%;
   font-style: oblique;
+}
+
+.blue-box, .work-text {
+  background: rgba(6, 153, 153, 0.7);
 }
