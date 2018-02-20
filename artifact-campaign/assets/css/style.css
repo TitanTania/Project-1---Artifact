@@ -43,6 +43,9 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.top-nav a img:hover {
+  filter: brightness(50%);
+}
 /* NAVIGATION END*/
 
 
