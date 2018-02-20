@@ -305,3 +305,7 @@ figcaption {
 .padding {
   padding-bottom: 15px;
 }
+
+figcaption {
+  padding: 0;
+}
