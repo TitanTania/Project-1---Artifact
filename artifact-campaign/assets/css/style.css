@@ -288,3 +288,7 @@ figcaption {
 .blue-box {
   padding-top: 20px;
 }
+
+.white-box {
+  background-image: url("../images/newlongpixel.svg");
+}
