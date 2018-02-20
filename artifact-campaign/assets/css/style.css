@@ -149,35 +149,6 @@ footer img{
 
 }
 
-#box1 {
-  background: orange;
-  opacity: 1;
-  background: linear-gradient(to right, rgba(0,0,0,255), rgba(0,0,255,1));
-  height: 200px;
-  width: 100%;
-  display: block;
-  /*top: 0;
-  bottom: 0;
-  left: 0;*/
-  right: 500px;
-  position: absolute;
-  border-radius: ;/* what is the purpose of this?
-}
-
-#overlay {
-  position: absolute;
-  height: 200px;
-  width: 400px;
-  /*top: 0;
-  bottom: 0;
-  left: 0;*/
-  right: 500px;
-  overflow: hidden;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #069999;
-  border-radius: ;/* what is the purpose of this?*/
-}
 
 .text {
     color: black;
@@ -198,81 +169,6 @@ footer img{
   position: relative;
   max-width: 100%;
 }
-
-.container:hover #overlay {
-    width: 100%;
-    opacity: 1;
-  }
-
-  #box2 {
-    /*background: orange;*/
-    opacity: 1;
-    /*background: linear-gradient(to right, rgba(0,0,0,255), rgba(0,0,255,1));*/
-    height: 200px;
-    width: 100%;
-    display: block;
-    /*top: 0;
-    bottom: 0;
-    left: 0;*/
-    right: 500px;
-    position: absolute;
-    border-radius: ;/* what is the purpose of this?*/
-  }
-
-  #overlay2 {
-    position: absolute;
-    height: 200px;
-    width: 400px;
-    /*top: 0;
-    bottom: 0;
-    left: 0;*/
-    right: 500px;
-    overflow: hidden;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #71c5c9;
-    border-radius: ;/* what is the purpose of this?*/
-  }
-
-  .container:hover #overlay2 {
-      width: 100%;
-      opacity: 1;
-    }
-
-#box3 {
-  background: orange;
-  opacity: 1;
-  background: linear-gradient(to right, rgba(0,0,0,255), rgba(0,0,255,1));
-  height: 200px;
-  width: 100%;
-  max-width: 1000px;
-  display: block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-radius: ;/* what is the purpose of this?*/
-}
-
-#overlay3 {
-  position: absolute;
-  height: 200px;
-  width: 400px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #f6a316;
-  border-radius: ; /* what is the purpose of this?*/
-}
-
-.container:hover #overlay3 {
-  width: 100%;
-  opacity: 1;
-  }
 
 
 .contactusinfo {
