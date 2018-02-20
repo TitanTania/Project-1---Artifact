@@ -282,3 +282,7 @@ figcaption {
   font-size: 60%;
   font-style: oblique;
 }
+
+.blue-box {
+  background: rgba(6, 153, 153, 0.7);
+}
