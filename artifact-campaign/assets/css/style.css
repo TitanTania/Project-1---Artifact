@@ -284,11 +284,13 @@ figcaption {
 
 .blue-box, .work-text {
   background: rgba(6, 153, 153, 0.7);
+  text-align: center;
 }
 
 .blue-box {
   padding-top: 20px;
 }
+
 
 .white-box {
   background-image: url("../images/newlongpixel.svg");
@@ -298,4 +300,8 @@ figcaption {
   text-align: center;
   max-width: 700px;
   margin: auto;
+}
+
+.padding {
+  padding-bottom: 15px;
 }
