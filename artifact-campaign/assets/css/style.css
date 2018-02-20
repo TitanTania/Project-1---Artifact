@@ -284,6 +284,7 @@ figcaption {
 
 .blue-box, .work-text {
   background: rgba(6, 153, 153, 0.7);
+  text-align: center;
 }
 
 .blue-box {
