@@ -280,6 +280,6 @@ figcaption {
   font-style: oblique;
 }
 
-.blue-box {
+.blue-box, .work-text {
   background: rgba(6, 153, 153, 0.7);
 }
