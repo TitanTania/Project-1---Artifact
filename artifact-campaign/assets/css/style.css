@@ -279,6 +279,7 @@ h2 {
 figcaption {
   font-size: 60%;
   font-style: oblique;
+  padding: 25px 0 0 0;
 }
 
 .blue-box, .work-text {
@@ -291,4 +292,10 @@ figcaption {
 
 .white-box {
   background-image: url("../images/newlongpixel.svg");
+}
+
+.worktext {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
 }
